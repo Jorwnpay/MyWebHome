@@ -4,25 +4,32 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
   <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no"> 
   <title>
-    Jorwnpay的神奇主页
+    Jorwnpay's Cartoon Home
   </title> 
   <script type="text/javascript" src="D:\\jQuery\\jquery.js"></script>
   <style>
+
 .search { position: relative; width: 78%; margin: 10px auto; padding-left: 3.4em; font-size: 14px;}
-.search:after{ clear:both;content:'.'; display:block;clear:both;/*清除全部样式*/ height:0; visibility:hidden; overflow:hidden;}
-.search_t { float: left; width: 78%; height: 60px;margin-left: 0px;  margin-top: 200px; padding-left: 20px; padding-right: 20px; font-size: 18px; border: 1px solid #cdcdcd; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
-.search_b { float: right;  width: 200px; height: 60px;margin-left: 0px;margin-top: 200px;padding-left: 0px; padding-right: 0px; font-size: 18px; border: 1px solid #cdcdcd; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
+.search:after{ clear:both;content:'.'; display:block;clear:both;height:0; visibility:hidden; overflow:hidden;}
+
+.search_t { float: left; width: 78%; height: 60px;margin-left: 0px;  margin-top: 200px; padding-left: 20px; padding-right: 20px; font-size: 18px;/* border: 1px solid #cdcdcd; */border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
+.search_b { float: right;  width: 200px; height: 60px;margin-left: 0px;margin-top: 200px;padding-left: 0px; padding-right: 0px; font-size: 18px;/* border: 1px solid #cdcdcd; */border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
+.background_{ background:url("./超级马里奥.jpg") no-repeat; background-size: 100%;}
   </style> 
 </head> 
 
-<body background="./超级马里奥.jpg" link="black" alink="red"> 
+<body class="background_">
+
+<!--
+ <div id="Layer1" style="background_"> 
+ <img src="./超级马里奥.jpg" height="100%" width="100%"/> 
+ </div> 
+-->
 
 <form class="search" action="http://www.baidu.com/baidu" target="_blank">
  <input class="search_t" type=text name=word size=40 placeholder="Input Content">
  <input class="search_b" type="submit" value="搜索"/>
 </form>
-
-
 
 <!--  
 <div class="search"> 
